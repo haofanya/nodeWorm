@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f6a706-dc81-4570-802c-123dd8d45c00" name="Default Changelist" comment="" />
+    <list default="true" id="d3f6a706-dc81-4570-802c-123dd8d45c00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vczh.js" beforeDir="false" afterPath="$PROJECT_DIR$/vczh.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -115,7 +117,7 @@
         <counts>
           <entry key="gitignore" value="43" />
           <entry key="html" value="457" />
-          <entry key="js" value="139" />
+          <entry key="js" value="158" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
@@ -123,7 +125,7 @@
         <counts>
           <entry key="HTML" value="457" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="139" />
+          <entry key="JavaScript" value="158" />
           <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
@@ -179,11 +181,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vczh.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+            <state relative-caret-position="254">
+              <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <folding>
+                <element signature="e#492#1352#0" />
+                <element signature="e#1792#1962#0" />
+                <element signature="e#1904#4265#0" />
+                <element signature="e#4212#4814#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,18 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qianyi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="192">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -237,7 +235,6 @@
       <find>catch</find>
       <find>mkdir</find>
       <find>url.slice(-4)</find>
-      <find>console</find>
       <find>-4</find>
       <find>UnicodeToUtf8</find>
       <find>console.log</find>
@@ -247,14 +244,17 @@
       <find>loadPage</find>
       <find>node</find>
       <find>data</find>
+      <find>qwe</find>
       <find>var</find>
       <find>fs</find>
-      <find>qwe</find>
+      <find>vczh</find>
+      <find>female</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
-      <replace>let</replace>
       <replace>result.imgs</replace>
       <replace>result</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -311,6 +311,17 @@
             <path>
               <item name="nodeWorm" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeWorm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeWorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeWorm" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeWorm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeWorm" type="462c0819:PsiDirectoryNode" />
+              <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="vczh" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,12 +387,12 @@
       <workItem from="1561536653781" duration="1560000" />
       <workItem from="1561601722629" duration="14539000" />
       <workItem from="1561687194614" duration="1419000" />
-      <workItem from="1561692520317" duration="2044000" />
+      <workItem from="1561692520317" duration="4769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101201000" />
+    <option name="totallyTimeSpent" value="103926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -399,7 +410,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28555918" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4169381" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -491,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhihu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/people.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -505,25 +509,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vczh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qianyi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="192">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/zhihu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vczh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="e#492#1352#0" />
+            <element signature="e#1792#1962#0" />
+            <element signature="e#1904#4265#0" />
+            <element signature="e#4212#4814#0" />
+          </folding>
         </state>
       </provider>
     </entry>

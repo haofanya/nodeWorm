@@ -19,10 +19,10 @@ const loadPage=async (url,z,name) => {
 
     //检索当前页面a标签，img标签
     const result =await page.evaluate((name) => {
-        console.log(2);
+        console.log('evaluate');
         let imgs = document.querySelectorAll('img');
         let links = document.querySelectorAll('.WB_frame_c a');
-        let female =document.querySelectorAll('.icon_pf_female').length>0;
+        let female =document.querySelectorAll('.icon_pf_female').length>0||name==='vczh';
         let data={imgs:[],links:[],female:female};
         for(let i in imgs){
             if(imgs[i].width>80){
@@ -50,7 +50,6 @@ const loadPage=async (url,z,name) => {
     if(result.female){
         await fs.mkdir('./sources/vczh/'+name, function(err){
             if(err){
-                //console.log(err);
             }else{
             }
         })
@@ -136,6 +135,12 @@ const loadPage=async (url,z,name) => {
         }
     });
     names.push('vczh');
+    await fs.mkdir('./sources/vczh', function(err){
+        if(err){
+        }else{
+        }
+    })
+
     await loadPage('https://weibo.com/vczh',z,'vczh');
 })();
 
